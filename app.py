@@ -560,9 +560,9 @@ def load_model():
 @st.cache_resource(show_spinner=False)
 def load_features() -> List[str]:
     if not FEATURES_PATH.exists():
-        raise FileNotFoundError(f"Feature list not found: {FEATURES_PATH}")
-    features = joblib.load(FEATURES_PATH)
-    features = list(features)
+        return MODEL_EXPECTED_FEATURES.copy()
+
+    features = list(joblib.load(FEATURES_PATH))
     if features != MODEL_EXPECTED_FEATURES:
         raise ValueError(
             "feature_columns.pkl does not match the expected 18-feature model contract. "
