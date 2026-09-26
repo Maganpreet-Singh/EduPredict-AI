@@ -35,8 +35,8 @@ st.set_page_config(
 BASE_DIR = Path(__file__).resolve().parent
 MODEL_PATH = BASE_DIR / "artifacts" / "final_edupredict_model.pkl"
 FEATURES_PATH = BASE_DIR / "artifacts" / "feature_columns.pkl"
-FINAL_DATA_PATH = BASE_DIR / "data" / "final_selected_features.csv"
-RAW_DATA_PATH = BASE_DIR / "data" / "merged_dataset.csv"
+FINAL_DATA_PATH = BASE_DIR / "Data" / "final_selected_features.csv"
+RAW_DATA_PATH = BASE_DIR / "Data" / "merged_dataset.csv"
 DATABASE_DIR = BASE_DIR / "database"
 DATABASE_PATH = DATABASE_DIR / "edupredict.db"
 DATABASE_URL = f"sqlite:///{DATABASE_PATH}"
