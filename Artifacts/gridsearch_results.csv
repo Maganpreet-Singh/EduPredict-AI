@@ -1,4 +1,0 @@
-Model,Best_CV_Macro_F1,Best_Parameters
-12 Bagging,0.8639357863288881,"{'model__max_features': 1.0, 'model__max_samples': 1.0, 'model__n_estimators': 100}"
-08 Extra Trees,0.8629042943655791,"{'model__max_depth': None, 'model__max_features': 'sqrt', 'model__min_samples_leaf': 1, 'model__min_samples_split': 2, 'model__n_estimators': 400}"
-07 Random Forest,0.8625652175852888,"{'model__max_depth': None, 'model__max_features': 'sqrt', 'model__min_samples_leaf': 1, 'model__min_samples_split': 2, 'model__n_estimators': 400}"
