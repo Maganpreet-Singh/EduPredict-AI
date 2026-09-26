@@ -1,0 +1,2 @@
+*.pkl filter=lfs diff=lfs merge=lfs -text
+Artifacts/edupredict_ai_final_model.pkl filter=lfs diff=lfs merge=lfs -text
